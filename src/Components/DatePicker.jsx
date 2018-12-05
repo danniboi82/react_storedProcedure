@@ -4,29 +4,33 @@ import Button from '@material-ui/core/Button';
 
 const DatePicker = (props) => {
     return (
-        <div style={{margin: "25px 10%", textAlign: 'center'}}>
+        <div style={{ backgroundImage:  'linear-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0)), URL("http://nexen-mancity.com/en/wp-content/uploads/2016/09/business-network.jpg")', backgroundSize: "100%" ,textAlign: 'center', borderBottom: '5px solid #740081' }}>
 
-            <form>
-                <TextField 
+            <form style={{ margin: "auto 10%", paddingTop: '25px', paddingBottom: '25px' }}>
+                <TextField
                     id="startDate"
                     label="Month Start"
                     type="text"
-                    defaultValue="201811"
+                    placeholder="YYYYMM"
                     className="monthSt"
                     variant='outlined'
 
-                /> 
-                <span style={{lineHeight: '60px', padding: '80px'}}> TO </span>
-                <TextField 
+                />
+                <span style={{ lineHeight: '60px', padding: '80px' }}> TO </span>
+                <TextField
                     id="endDate"
                     label="Month End"
                     type="text"
-                    defaultValue="201811"
+                    placeholder="YYYYMM"
                     className="monthSt"
                     variant='outlined'
 
-                /> 
-                <Button /> 
+                />
+                <br />
+                <Button style={{ marginTop: '15px' }}
+                    variant='outlined' color='secondary'>
+                    Search
+                </Button>
             </form>
         </div>
     )
