@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Main.css';
 import DatePicker from '../Components/DatePicker';
+import ResultTable from '../Components/ResultTable';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
    
         </header>
         <DatePicker />
+        <ResultTable />
       </div>
     );
   }
