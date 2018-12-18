@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 
 const DatePicker = (props) => {
     return (
-        <div style={{ backgroundImage:  'linear-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0)), URL("http://nexen-mancity.com/en/wp-content/uploads/2016/09/business-network.jpg")', backgroundSize: "100%" ,textAlign: 'center', borderBottom: '5px solid #740081' }}>
+        <div style={{ backgroundImage:  'linear-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0)), URL("http://nexen-mancity.com/en/wp-content/uploads/2016/09/business-network.jpg")', backgroundSize: "cover" ,textAlign: 'center', borderBottom: '5px solid #740081' }}>
 
             <form style={{ margin: "auto 10%", paddingTop: '25px', paddingBottom: '25px' }}>
                 <TextField
@@ -28,7 +28,7 @@ const DatePicker = (props) => {
                 />
                 <br />
                 <Button style={{ marginTop: '15px' }}
-                    variant='outlined' color='secondary'>
+                    variant='raised' color='secondary'>
                     Search
                 </Button>
             </form>

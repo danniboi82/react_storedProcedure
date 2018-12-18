@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header" style={{background: 'black', borderBottom: '30px solid  #A800BB'}} >
+        <header className="App-header" style={{background: 'black', borderBottom: '30px solid purple'}} >
           <img src='/images/dealer_portal_header_img.jpg' className="App-logo" alt="logo" style={{ margin: '0px auto', display: 'block' }} />
    
         </header>
